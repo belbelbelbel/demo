@@ -1,0 +1,54 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box ;
+}
+
+.App {
+  min-height: 100vh;
+  background: #1f4037;  /* fallback for old browsers */
+background-image: -webkit-linear-gradient(to right, #99f2c8, #1f4037);  /* Chrome 10-25, Safari 5.1-6 */
+background-image: linear-gradient(to right, #99f2c8, #1f4037); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.auto-form-container, .login-form,.register-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.auto-form-container {
+  padding: 5rem;
+  border:1px solid whitesmoke;
+  border-radius: 0.8rem;
+}
+
+label {
+  text-align: left;
+  padding: 0.1rem 0;
+}
+input {
+  margin: 0.5rem 0;
+  padding:1rem;
+  border: none;
+  border-radius: 0.8rem;
+
+}
+
+button {
+  border: none;
+  padding: 1.8rem;
+  border-radius: 0.8rem;
+  cursor: pointer;
+  color: #99f2c8;
+  background-color: #1f4037;
+
+}
+
+.link-btn {
+  background: none;
+  text-decoration: underline;
+}
